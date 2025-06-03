@@ -1,19 +1,20 @@
 header {
     display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-color: #282c34;
-        color: white;
-        padding: 10px;
-        margin-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+
     h1 {
         font-size: 32px;
-            margin: 12px;
+        margin: 12px;
     }
 
     h2 {
         font-size: 24px;
-            margin: 8px;
+        margin: 8px;
     }
 }
 
@@ -30,18 +31,68 @@ nav {
 //     }
 // }
 
-// .home {
+.home {
+    // h2 {
+
+    // }
+    .recipes-list {
+        ol {
+            li {
+                display: flex;
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                gap: 10px;
+
+                img {
+                    height: 100px;
+                    width: 100px;
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    width: 100%;
+
+                    h3 {
+                        font-size: 24px;
+                        margin: 0;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .login {
 //     h2 {
 
 //     }
 // }
 
+// .recipe-form {
+//     h2 {
 
+//     }
+// }
+
+// .recipe-detail {
+//     h2 {
+
+//     }
+// }
 
 footer {
     text-align: center;
-        height: fit-content;
-        padding: 5px;
+    height: fit-content;
+    padding: 5px;
+
     p {
         font-size: 12px;
     }
